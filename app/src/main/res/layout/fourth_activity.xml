@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout02"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/act4_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity4"
+        android:textSize="10pt"
+        android:textColor="@color/colorPrimary"
+        android:backgroundTint="@color/colorButtonText"/>
+
+    <ImageButton
+        android:id="@+id/batButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:cropToPadding="false"
+        android:onClick="batClick"
+        app:srcCompat="@drawable/batman_thumb"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/superButton"
+        android:layout_toStartOf="@+id/superButton"
+        android:layout_marginRight="7dp"
+        android:layout_marginEnd="7dp" />
+
+    <ImageButton
+        android:id="@+id/flashButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/batButton"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:cropToPadding="false"
+        android:onClick="flashClick"
+        app:srcCompat="@drawable/flash_thumb" />
+
+    <ImageButton
+        android:id="@+id/superButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/batButton"
+        android:layout_centerHorizontal="true"
+        android:cropToPadding="false"
+        android:onClick="supersClick"
+        app:srcCompat="@drawable/superman_thumb" />
+
+</RelativeLayout>

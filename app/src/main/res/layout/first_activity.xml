@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/act1_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity1"
+        android:textSize="10pt"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/act1_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter a temperature value"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/toFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="convertToFahrenheit"
+        android:text="@string/act1_cel"
+        android:textColor="@color/colorButtonText"
+        android:textSize="8pt"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/toCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="convertToCelsius"
+        android:text="@string/act1_fahr"
+        android:textColor="@color/colorButtonText"
+        android:textSize="8pt"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/act1_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20pt"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center" />
+</LinearLayout>

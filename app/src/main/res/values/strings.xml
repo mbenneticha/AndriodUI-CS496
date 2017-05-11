@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AndriodUI-CS496</string>
+    <string name="activity1">Temperature Converter</string>
+    <string name="activity2">String Shuffler</string>
+    <string name="activity3">Number Printer</string>
+    <string name="activity4">Choose a Background</string>
+
+
+    <string name="act1_fahr">Fahrenheit to Celsius</string>
+    <string name="act1_cel">Celsius to Fahrenheit</string>
+
+    <string name="act2_radio1">Shuffle By Two</string>
+    <string name="act2_radio2">Shuffle By Three</string>
+    <string name="act2_radio3">Shuffle By Four</string>
+    <string name="act2_radio4">Random Shuffle</string>
+    <string name="act2_submit">Shuffle</string>
+
+    <string name="act3_clear">Clear</string>
+
+</resources>
